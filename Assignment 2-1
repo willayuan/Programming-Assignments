@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+void even_odd(int);
+
+int main()
+{
+ int x;
+ cout << "Please enter a number: ";   cin >> x;
+ even_odd (x);
+
+ return 0;
+}
+
+void even_odd (int x)
+{
+ if ( x%2 == 0 )
+  cout<< x <<" is Even" << endl;
+ else
+  cout<< x <<" is Odd"  << endl;
+}
+
